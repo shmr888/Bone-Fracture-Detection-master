@@ -14,7 +14,7 @@ model_parts = tf.keras.models.load_model("weights/ResNet50_BodyParts.h5")
 categories_parts = ["Elbow", "Hand", "Shoulder"]
 
 #   0-fractured     1-normal
-categories_fracture = ['fractured', 'normal']
+categories_fracture = ['Fractured', 'Normal']
 
 
 # get image and model name, the default model is "Parts"
